@@ -1,0 +1,34 @@
+{
+  "name": "base45",
+  "description": "Encode/decode base45 data into XXX",
+  "version": "0.2.0",
+  "homepage": "https://github.com/dirkx/base45",
+  "author": {
+    "name": "Dirk-Willem van Gulik",
+    "email": "dirkx@apache.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirk/base45"
+  },
+  "bugs": {
+    "url": "https://github.com/dirkx/base45/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/dirkx/base45/blob/master/LICENSE-ASF-2.0.txt"
+    }
+  ],
+  "main": "lib/base45",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.3"
+  },
+  "keywords": []
+}
