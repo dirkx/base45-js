@@ -1,10 +1,10 @@
 const {equal, ok} = require('assert');
-const {b45encode, b45decode } = require('../lib/base45.js');
+const b45 = require('../lib/base45-js.js');
 
 function check(i,t) {
   const buf = Buffer.from(i, 'utf-8')
-  const e = b45encode(buf)
-  const d = b45decode(t)
+  const e = b45.encode(buf)
+  const d = b45.decode(t)
 
   if (buf.compare(d)) throw new Error('Encode did not yield expected result:' + buf +" != " + d)
   if (t != e.toString('utf-8')) throw new Error('Encode did not yield expected result:' + t +" != " + e)
