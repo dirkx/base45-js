@@ -1,26 +1,26 @@
 {
-  "name": "base45",
-  "description": "Encode/decode base45 data into XXX",
-  "version": "0.2.0",
-  "homepage": "https://github.com/dirkx/base45",
+  "name": "base45-js",
+  "description": "Encode/decode base45 data - including non-utf8 compliant data",
+  "version": "0.2.1",
+  "homepage": "https://github.com/ehn-digital-green-development/base45-js",
   "author": {
     "name": "Dirk-Willem van Gulik",
     "email": "dirkx@apache.org"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dirk/base45"
+    "url": "https://github.com/iehn-digital-green-development/base45-js"
   },
   "bugs": {
-    "url": "https://github.com/dirkx/base45/issues"
+    "url": "https://github.com/ehn-digital-green-development/base45-js/issues"
   },
   "licenses": [
     {
       "type": "Apache-2.0",
-      "url": "https://github.com/dirkx/base45/blob/master/LICENSE-ASF-2.0.txt"
+      "url": "https://github.com/ehn-digital-green-development/base45/blob/master/LICENSE-ASF-2.0.txt"
     }
   ],
-  "main": "lib/base45",
+  "main": "lib/base45-js",
   "engines": {
     "node": ">= 0.6.0"
   },
