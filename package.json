@@ -7,6 +7,12 @@
     "name": "Dirk-Willem van Gulik",
     "email": "dirkx@apache.org"
   },
+  "contributors": [
+    {
+      "name": "Steve Kellaway",
+      "email": "steve.kellaway@mefitihe.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/iehn-digital-green-development/base45-js"
@@ -20,7 +26,7 @@
       "url": "https://github.com/ehn-digital-green-development/base45/blob/master/LICENSE-ASF-2.0.txt"
     }
   ],
-  "main": "lib/base45-js",
+  "main": "lib/base45",
   "engines": {
     "node": ">= 0.6.0"
   },
@@ -28,7 +34,10 @@
     "test": "mocha test"
   },
   "devDependencies": {
-    "mocha": "^6.2.3"
+    "mocha": "^8.3.2"
   },
-  "keywords": []
+  "keywords": [],
+  "vsTest": {
+    "testRoot": "./test"
+  }
 }
